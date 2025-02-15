@@ -40,13 +40,6 @@ router.patch("/cover-image",verifyJWT,upload.single("coverImage"),updateCoverIma
 router.get("/c/:username",verifyJWT,getUserChannelProfile)
 router.get("/history",verifyJWT,getWatchHistory)
 
-    
 
-
-
-
-// router.route("/avatar").patch(verifyJWT, upload.single("avatar"), updateUserAvatar)
-// router.route("/cover-image").patch(verifyJWT, upload.single("coverImage"), updateUserCoverImage)
-// router.route("/login").post(logInUser);
 
 module.exports = router;
