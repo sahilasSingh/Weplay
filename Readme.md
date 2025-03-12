@@ -1,3 +1,3 @@
 # weplay
 
-This is a backend project with javascript
+This is a backend project with javascript like YouTube.
